@@ -1,0 +1,2 @@
+--> Plugin UUID: 9726cf2d-1e01-4dd7-8dce-6432151ca9b5 <--
+local StudioPluginService = shared.StudioPluginService:Get();
