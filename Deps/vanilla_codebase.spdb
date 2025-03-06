@@ -1,0 +1,11 @@
+return {
+  ['Plugins'] = {
+    ['9726cf2d-1e01-4dd7-8dce-6432151ca9b5'] = {
+      ['Title'] = 'Developer Mode';
+      ['Description'] = 'Access the studio+ development environment & create plugins with ease!';
+      ['Author'] = 'Studio+';
+      ['UID'] = '9726cf2d-1e01-4dd7-8dce-6432151ca9b5';
+      ['Download'] = 'https://raw.githubusercontent.com/xor-lang-bit/studio-plus/refs/heads/main/Deps/Library/developer_mode.spgp'
+    }
+  }
+}
