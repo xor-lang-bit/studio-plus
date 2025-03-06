@@ -1,5 +1,5 @@
 --> Plugin UUID: 9726cf2d-1e01-4dd7-8dce-6432151ca9b5 <--
 if not shared.StudioPluginService then
-  repeat task.wait() until shared.StudioPluginService
+  repeat task.wait() until shared.StudioPlusService
 end
-local StudioPluginService = shared.StudioPluginService:Get();
+local StudioPluginService = shared.StudioPlusService:Get('Plugin'); -- Plugin Service
