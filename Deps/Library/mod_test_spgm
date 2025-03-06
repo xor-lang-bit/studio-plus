@@ -2,4 +2,4 @@
 if not shared.StudioPluginService then
   repeat task.wait() until shared.StudioPlusService
 end
-local StudioPluginService = shared.StudioPlusService:GetEnvironment('Mod'); -- Plugin Service
+local StudioPluginService = shared.StudioPlusService:GetEnvironment('Mod'); -- Mod Service
