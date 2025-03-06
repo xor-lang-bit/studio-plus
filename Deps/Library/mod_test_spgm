@@ -1,0 +1,5 @@
+--> Plugin UUID: 65b1a39e-acfb-46c5-aad6-250e4c8bb13f <--
+if not shared.StudioPluginService then
+  repeat task.wait() until shared.StudioPlusService
+end
+local StudioPluginService = shared.StudioPlusService:GetEnvironment('Mod'); -- Plugin Service
